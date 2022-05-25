@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+.Body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #000000;
+}
+
+.backgroundImg {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.introPage {
+  height: 90vh;
+  position: relative;
+  text-align: center;
+}
+
+.introText {
+  color: rgb(0, 0, 0);
+  width: fit-content;
+  position: relative;
+  top: 27vh;
+  z-index: 100000;
+  margin: 0 auto;
+  text-align: center;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInLeft;
+}
+
+.introText h3 {
+  text-align: left;
+}
+
+.introText h1 {
+  font-size: 110px;
+}
+
+.introText > h1 > span {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.gradient-text {
+  background-color: red;
+  background-image: linear-gradient(45deg, #ff7568, #861657 70%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.gradient-text img {
+  position: relative;
+  bottom: 3px;
+  margin-right: 0px;
+}
+
+.text-transparent {
+  color: transparent;
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  opacity: 0.8;
+}
+
+.text-hollow {
+  -webkit-text-stroke: 2px #800000;
+}
+
+.Page {
+  margin: 0 auto;
+  padding: 5vh 0;
+  height: fit-content;
+  background-color: white;
+  padding-bottom: 8vh;
+}
+
+.displayCards .card {
+  background-color: rgb(245, 245, 245);
+  height: 300px;
+  color: rgb(0, 0, 0);
+}
+
+.displayCards .card:hover {
+  transition: all 0.4s ease;
+  color: #ffffff;
+  background-color: #800000;
+  position: relative;
+  z-index: 100;
+  box-shadow: 20px 20px 50px 15px grey;
+  fill: white;
+}
+
+.displayCards .card .card-body svg {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.displayCards .card .card-title {
+  position: absolute;
+  bottom: 0;
+  font-size: 40px;
+}
+
+.PageWhite {
+  background-color: white;
+  margin: 0 auto;
+  padding: 5vh 0;
+}
+
+.Stats {
+  max-width: 1180px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 20px;
+  box-shadow: 20px 20px 50px 15px grey;
+}
+
+footer {
+  background-color: #242424;
+  color: white;
+  padding: 60px 15px 5px 15px;
+}
+
+footer p {
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+footer h3 {
+  margin-left: 50px;
+  padding-bottom: 10px;
+  padding-right: 70px;
+  margin-bottom: 20px;
+  width: fit-content;
+  border-bottom: 3px solid #800000;
+}
+
+footer ul h5 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-bottom: 3px solid #800000;
+}
+
+.footerLinks {
+  list-style: none;
+}
+
+.footerLinks > li {
+  margin-top: 7px;
+}
+
+.footerLinks > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  height: 70px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+nav ul li a:not(:only-child):after {
+  padding-left: 4px;
+  content: " ▾";
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+.nav-dropdown {
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  display: none;
+  background-color: #ffffff;
+}
+.nav-mobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
+  display: none;
+}
+nav ul li a:hover {
+  color: #800000;
+}
+
+.navbar {
+  position: relative;
+  z-index: 100;
+  background-color: #e1e1e1;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.navbar-brand {
+  color: #800000;
+  font-weight: bolder;
+  font-size: 27px;
+  margin-left: 30px;
+}
+
+.navbar-brand:hover {
+  color: #800000;
+}
+
+.Stats {
+  width: 90%;
+}
+
+.Thumbnail {
+  background-image: url(./images/service1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.msgBtn {
+  border: 2px solid #800000;
+  color: #800000;
+  font-weight: bolder;
+}
+
+.msgBtn:hover {
+  background-color: #800000;
+  color: white;
+  transition: 0.25s ease-in;
+}
+
+.ThumbnailMargin {
+  height: calc(70vh - 100px);
+}
+
+#tsparticles {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.carousel-item {
+  background-color: #242424;
+  height: 100vh;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 100vh;
+}
+
+.Testimonials .card {
+  border: 0;
+  border-left: 4px solid #b40000;
+  border-radius: 0;
+}
+
+.socialLinks a svg {
+  height: 23px;
+  width: 23px;
+  fill: white;
+}
+
+.Quote {
+  font-weight: bold;
+  font-size: px;
+}
+
+.Quote span {
+  color: #b20000b0;
+}
+
+.highlightText {
+  margin-left: 200px;
+}
+
+.highlightText h1 {
+  color: #c80000;
+}
+
+.Quality .card-body {
+  min-height: 344px;
+  text-align: center;
+}
+
+.Quality .card-text {
+  min-height: 144px;
+}
+
+.Quality .card {
+  border-left: 4px dotted #c80000;
+}
+
+.Quality .card-body svg {
+  fill: #c80000;
+}
+
+.CR {
+  text-align: right;
+}
+
+.joinUs {
+  /* background-image: url("./bgJoinUs.jpg"); */
+  background-color: #000000;
+  margin-bottom: 200px;
+  background-position: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  color: white;
+  padding: 70px 0;
+}
+
+.joinUs h1 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.joinUs > .col-md-8 > h1,
+.joinUs > .col-md-8 > p {
+  margin-left: 80px;
+}
+
+.joinUs .contactBtn {
+  padding: 20px 30px;
+  width: 200px;
+  font-weight: bolder;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(255, 78, 78);
+}
+
+.joinUs .contactBtn:hover {
+  background-color: rgb(255, 78, 78);
+}
+
+@media screen and (min-width: 800px) {
+  .nav-list {
+    display: block !important;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .introText h1 {
+    font-size: 60px;
+  }
+
+  .introText > h1 > span {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 11;
+  }
+  nav {
+    width: 100%;
+    padding: 70px 0 15px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li a:hover {
+    color: #800000;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+  .nav-dropdown {
+    position: static;
+  }
+  nav ul {
+    display: none;
+  }
+  #nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+  }
+  #nav-toggle span,
+  #nav-toggle span:before,
+  #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #4b6985;
+    position: absolute;
+    display: block;
+    content: "";
+    transition: all 300ms ease-in-out;
+  }
+  #nav-toggle span:before {
+    top: -10px;
+  }
+  #nav-toggle span:after {
+    bottom: -10px;
+  }
+  #nav-toggle.active span {
+    background-color: transparent;
+  }
+  #nav-toggle.active span:before,
+  #nav-toggle.active span:after {
+    top: 0;
+  }
+  #nav-toggle.active span:before {
+    transform: rotate(45deg);
+  }
+  #nav-toggle.active span:after {
+    transform: rotate(-45deg);
+  }
+  .nav-mob-open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .footerLinks {
+    text-align: center;
+  }
+  .nav-list {
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    text-align: left;
+  }
+
+  .highlightText {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .highlightText h1 {
+    color: #c80000;
+  }
+
+  .joinUs > .col-md-8 > h1,
+  .joinUs > .col-md-8 > p {
+    margin-left: 0;
+  }
+
+  .joinUs > .col-md-4 > h1{
+    text-align: center;
+  }
+}
+
+.bgImg{
+  background-color: #000000;
+  filter: brightness(60%);
+}
