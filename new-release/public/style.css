@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: fit-content;
+}
+
+.Body {
+  margin: 0;
+  padding: 0;
+  background-color: #edf2f4;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ParentDiv {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #edf2f4;
+  width: 90%;
+}
+
+.fullPage {
+  min-height: 100vh;
+  height: fit-content;
+  padding: 5vh 0;
+}
+
+.navbar {
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #edf2f4;
+  border-bottom: 1px solid black;
+}
+
+.navbar-collapse {
+  margin-right: 20px;
+}
+
+.dropdown-menu {
+  width: 250px;
+  padding: 5px 0;
+}
+
+.dropdown-menu li {
+  text-align: center;
+  padding: 3px;
+}
+
+.backgroundImg {
+  position: relative;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+
+.backgroundImg .introText {
+  position: absolute;
+  top: 27vh;
+  left: 60px;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+.introText h2 {
+  font-size: 30px;
+}
+
+.introText h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #cf2b2b;
+}
+
+.introText p {
+  margin-top: 30px;
+  width: 40%;
+  font-size: 19px;
+}
+
+.submitNLBtn {
+  color: white;
+  background-color: #cf2b2b;
+  border: 0;
+}
+
+.submitNLBtn:hover {
+  color: #cf2b2b;
+  background-color: white;
+  border: 1px solid #cf2b2b;
+}
+
+.aboutText {
+  padding-right: 100px;
+}
+
+.imageView {
+  background-image: url(./images/2224_1200x628_Facebook_The-Impact-of-Cyber-Security-on-Healthcare-Brands-1024x536.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  position: relative;
+  left: 12px; 
+}
+
+.marginFill {
+  height: 70px;
+}
+
+.colContent {
+  height: fit-content;
+  padding-top: 10vh;
+}
+
+.colContent > svg {
+  margin-top: 130px;
+  height: 300px;
+}
+
+.Quote {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.Quote span {
+  color: #f71616;
+}
+
+.text-transparent {
+  color: transparent;
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  opacity: 0.8;
+}
+
+.text-hollow {
+  -webkit-text-stroke: 2px #ac0e0e;
+}
+
+.Page {
+  margin: 0 auto;
+  height: fit-content;
+  background-color: #edf2f4;
+  padding-bottom: 8vh;
+}
+
+.displayCards .card {
+  background-color: rgb(245, 245, 245);
+  height: 270px;
+  color: rgb(0, 0, 0);
+}
+
+.displayCards .card:hover {
+  transition: all 0.4s ease;
+  color: #ffffff;
+  background-color: #cf2b2b;
+  position: relative;
+  z-index: 100;
+  box-shadow: 20px 20px 50px 15px grey;
+  fill: white;
+}
+
+.displayCards .card .card-body svg {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 90px;
+  width: 100px;
+}
+
+.displayCards .card .card-title {
+  position: absolute;
+  bottom: 0;
+  font-size: 40px;
+}
+
+.Quality .card {
+  background-color: #edf2f4;
+  border: 0;
+  border-left: 3px dashed #cf2b2b;
+  text-align: center;
+  height: 100%;
+  border-radius: 0;
+}
+
+.Quality .card-body svg {
+  fill: #cf2b2b;
+}
+
+.highlightText {
+  margin-left: 200px;
+}
+
+.highlightText h1 {
+  color: #cf2b2b;
+}
+
+.homeBtn {
+  padding: 8px 25px;
+  background-color: #cf2b2b;
+  border: 3px solid #cf2b2b;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.homeBtn a {
+  color: white;
+  text-decoration: none;
+}
+
+.homeBtn:hover {
+  background-color: transparent;
+  border: 3px solid #cf2b2b;
+  color: #cf2b2b;
+}
+
+.homeBtn:hover > .homeBtnLink {
+  color: #cf2b2b;
+}
+
+.joinUs {
+  /* background-image: url("./bgJoinUs.jpg"); */
+  background-color: #000000;
+  background-position: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 30px 0;
+  margin-top: 20px;
+}
+
+.joinUs h1 {
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.joinUs > .col-md-8 > h1,
+.joinUs > .col-md-8 > p {
+  margin-left: 80px;
+}
+
+.joinUs .contactBtn {
+  padding: 10px 30px;
+  width: 200px;
+  font-weight: bolder;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(255, 78, 78);
+}
+
+.joinUs .contactBtn:hover {
+  background-color: rgb(255, 78, 78);
+}
+
+.Testimonials {
+  position: relative;
+  bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Testimonials .col-md-4 {
+  margin-top: 70px;
+}
+
+.TestimImg img {
+  height: 130px;
+  width: 130px;
+}
+
+.TestimImg {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  text-align: center;
+  width: calc(100% - 20px);
+}
+
+.Testimonial {
+  height: 100%;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.Testimonial .card-body {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.Testimonial .CiteName {
+  position: absolute;
+  text-align: center;
+  width: calc(100% - 20px);
+  bottom: 0;
+  font-weight: bold;
+  color: #cf2b2b;
+}
+
+.Blogs {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Blogs .card {
+  box-shadow: 5px 5px 10px grey;
+  border: 0;
+  padding-bottom: 20px;
+}
+
+.Blogs .card:hover {
+  box-shadow: 20px 20px 50px grey;
+  transition: 0.5s;
+}
+
+.Blogs .cardMain {
+  min-height: 500px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.Blogs .cardSec {
+  height: calc(50% - 15px);
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.cardImg {
+  height: 250px;
+  width: 100%;
+  background-image: url("./images/pexels-photo-8154457.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.cardLink {
+  color: #cf2b2b;
+
+  text-decoration: none;
+  position: absolute;
+  bottom: 15px;
+}
+
+.cardLink:hover {
+  color: #ae001d;
+}
+
+footer {
+  background-color: #d3d3d3;
+  color: rgb(8, 8, 8);
+  padding: 60px 15px 5px 15px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer p {
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+footer h3 {
+  margin-left: 50px;
+  padding-bottom: 10px;
+  padding-right: 70px;
+  margin-bottom: 20px;
+  width: fit-content;
+  border-bottom: 3px solid #cf2b2b;
+}
+
+footer ul h5 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-bottom: 3px solid #cf2b2b;
+}
+
+.footerLinks {
+  list-style: none;
+}
+
+.footerLinks > li {
+  margin-top: 7px;
+}
+
+.footerLinks > li > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.socialLinks {
+  padding-left: 50px;
+}
+
+.socialLinks a svg {
+  height: 23px;
+  width: 23px;
+  fill: rgb(5, 5, 5);
+}
+
+.CR {
+  text-align: right;
+  fill: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .backgroundImg .introText {
+    position: absolute;
+    top: 7vh;
+    left: 20px;
+    z-index: 10;
+    margin: 0 auto;
+    width: calc(100% - 20px);
+  }
+
+  .introText p{
+    width: 100%;
+  }
+
+  .introText h2 {
+    font-size: 25px;
+  }
+
+  .introText h1 {
+    font-size: 40px;
+  }
+
+  .introText p {
+    margin-top: 5vh;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+    background-color: #edf2f4;
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  .navbar-collapse.show .dropdown-menu {
+    width: calc(100% - 20px);
+    background-color: #edf2f4;
+  }
+
+  .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .highlightText {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .Achievements .card {
+    border: 0;
+  }
+
+  .aboutText {
+    padding: 0;
+    text-align: center;
+  }
+  .colContent {
+    padding: 0;
+  }
+
+  .colContent > svg {
+margin-top: 20px;
+    height: 150px;
+  }
+  .AboutDiv > .col-md-5 {
+    height: 200px;
+  }
+
+  .Quotes{
+    margin-top: 0;
+  } 
+  .dropdown-menu.show{
+    width: 300px;
+    position: relative;
+    left: 0;
+  }
+}
+
+.dropdown-menu.show{
+  width: 300px;
+  position: relative;
+  left: -100px;
+}
+
+.msgBtn{
+  color: white;
+  background-color: #cf2b2b;
+  border: 2px solid #cf2b2b;
+}
+
+.msgBtn:hover{
+  border: 2px solid #cf2b2b;
+}
+
+.Blog{
+  margin: 50px auto;
+  width: 90%;
+}
+
+.Blog img{
+  width: 100%;
+  margin: 30px auto;
+}
+
+.contactPage .displayCards .card .card-title {
+  position: initial;
+  top: 30px;
+}
+
+.contactPage .displayCards .card h6 {
+  position: absolute;
+  bottom: 20px;
+  color: rgb(245, 245, 245);
+  width: calc(100% - 32px);
+}
+
+.contactPage .displayCards .card {
+  background-color: #8e1717;
+  height: 200px;
+  color: #ffffff;
+}
+
+.displayCards a{
+  text-decoration: none;
+  padding: 0;
+}
+
+.contactPage .displayCards .card:hover {
+  transition: all 0.4s ease;
+  background-color: #cf2b2b;
+  box-shadow: none;
+}
+
+.accordion{
+  max-width: 900px;
+  margin-left: auto;margin-right: auto;
+}
+
+.accordion .accordion-item{
+  background-color: #edf2f4;
+  border: 0;
+}
+
+.accordion-button:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-button.collapsed{
+  background-color: #edf2f4;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.375);
+}
+
+.accordion-button{
+  background-color: #edf2f4;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.375);
+  color: #000000;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #edf2f4;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.375);
+  color: #c92828;
+  font-weight: bolder;
+}
+
+.services-grid a {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  letter-spacing: 1px;
+}
+.services-grid p {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+.services-grid section {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.services-grid h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.825rem;
+  margin: 1.3rem 0;
+}
+.services-grid .section-lead {
+  max-width: 600px;
+  margin: 1rem auto 1.5rem;
+}
+.services-grid .service a {
+  color: #5b7abb;
+  display: block;
+}
+.services-grid .service h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #56ceba;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.6rem;
+}
+.services-grid {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.services-grid .service {
+  background: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #e7e7e7;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  height: 200px;
+}
+.services-grid .service:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+.services-grid .service i {
+  font-size: 3.45rem;
+  margin: 1rem 0;
+}
+.services-grid .service1 i, .services-grid .service1 h4, .services-grid .service1 .cta {
+  color: #ac0e0e;
+}
+.services-grid .service1:hover {
+  border: 2px solid #c92828;
+}
+
+.services-grid .service .cta span {
+  font-size: 0.6rem;
+}
+.services-grid .service > * {
+  flex: 1 1 100%;
+}
+.services-grid .service .cta {
+  align-self: flex-end;
+}
+
+@media (max-width: 900px) {
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+}
+
+.aboutusCarousel .carousel-item{
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.aboutusCarousel .carousel-caption{
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  height: fit-content;
+}
+
+.aboutusCarousel .carouselImg{
+  background-image: url(./carousel/c1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutusCarousel .carousel-caption h5{
+  color: #cf2b2b;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.tq{
+  margin-top: 70px;
+}
+
+.testQuote{
+  margin: 70px auto;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  color: #cf2b2b;
+}
+.testQuote h1{
+  font-family: "Oswald", sans-serif;
+
+}
+
+.Services .row .col-md-5 img{
+  max-width: 500px;
+}
+
+.Services .testQuote{
+  margin-bottom: 70px;
+}

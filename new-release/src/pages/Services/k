@@ -1,0 +1,123 @@
+<div class="services-grid">
+    <div class="service service1">
+        <i class="ti-bar-chart"></i>
+        <h4>Application Security Assessment</h4>
+        <p>
+            Application Security Assessment is the assessment procedure for
+            finding out the threats and knowing the gaps for bridging those.
+            It helps in making the applications and software more secure.
+        </p>
+        <a href="#" class="cta">
+            Read More <span class="ti-angle-right" />
+        </a>
+    </div>
+
+    <div class="service service1">
+        <i class="ti-light-bulb"></i>
+        <h4>Blue Teaming Solutions</h4>
+        <p>
+            Blue teaming solutions are 24/7 services as a solution to all your
+            problems. It secures your business on and off business hours and
+            days by identifying, blocking, and fighting the security risks
+            approaching your business while sustaining the regular working
+            pace without disruption. The sub-services we offer in blue teaming
+            solutions are SIEM, SOC, MSSP, and Digital forensics and incident
+            response.
+        </p>
+        <a href="#" class="cta">
+            Read More <span class="ti-angle-right" />
+        </a>
+    </div>
+
+    <div class="service service1">
+        <i class="ti-money"></i>
+        <h4>IOT Security Assessment</h4>
+        <p>
+            Internet of Thing security assessment is a security audit used
+            for identifying potential risks that may prove to be problematic
+            in the future. It helps in eliminating those risks in the
+            beginning before becoming a real problem.
+        </p>
+        <p>
+            Sub-services we offer in the IoT Security Assessment are IoT
+            device penetration testing, medical device penetration testing,
+            ATM penetration testing, and drone penetration testing.
+        </p>
+        <a href="#" class="cta">
+            Read more <span class="ti-angle-right" />
+        </a>
+    </div>
+</div>
+<div class="services-grid">
+    <div class="service service1">
+        <i class="ti-bar-chart"></i>
+        <h4>Network Security Assessment</h4>
+        <p>
+            Network Security Assessment identifies potential entry portals
+            used by cybercriminals as vulnerability points in your network
+            and devices. By securing the weak and risky points, we eliminate
+            the opportunities for breaching and hacking your data.
+        </p>
+        <p>
+            Sub-services we offer in Network Security Assessment to give a
+            360° view of the network for securing it are:
+        </p>
+        <a href="#" class="cta">
+            Read More <span class="ti-angle-right" />
+        </a>
+    </div>
+
+    <div class="service service1">
+        <i class="ti-light-bulb"></i>
+        <h4>Adversery Simulation</h4>
+        <p>
+            Adversary simulation investigates the security tools of an
+            organization. Its comprehensive report gives the information about
+            the working condition of the security system installed to make
+            strategic decisions regarding the security of the sensitive
+            information stored for the future. The sub-services we offer in
+            adversary simulation are Red team assessment, Purple team
+            assessment, and Blue team assessment.
+        </p>
+        <a href="#" class="cta">
+            Read More <span class="ti-angle-right" />
+        </a>
+    </div>
+
+    <div class="service service1">
+        <i class="ti-money"></i>
+        <h4>Security Training and Awareness</h4>
+        <p>
+            Apart from offering security solutions to help your business
+            rise like a Phoenix, Cyphinix provides training and awareness
+            programs to help your business and employees learn more about
+            cybercrimes which will help your business deal effectively and
+            efficiently with cyber issues.
+        </p>
+        <p>
+            The sub-services we offer in security training and awareness
+            programs are corporate training, cyber security workshop,
+            digital safety and awareness program, security simulation lab
+            practices, and competitive hacking challenges.
+        </p>
+        <a href="#" class="cta">
+            Read more <span class="ti-angle-right" />
+        </a>
+    </div>
+</div>
+<div class="services-grid">
+    <div class="service service1">
+        <i class="ti-bar-chart"></i>
+        <h4>Other Security Services</h4>
+        <p>
+        <ul>
+            <li>Phishing Simulation</li>
+            <li>Spam and DDOS Management</li>
+            <li>Email Security</li>
+        </ul>
+        </p>
+        <a href="#" class="cta">
+            Read More <span class="ti-angle-right" />
+        </a>
+    </div>
+</div>
